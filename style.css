@@ -1,0 +1,176 @@
+body{
+  font-family:Roboto, Helvetica Neue, sans-serif;
+  color:rgb(215, 23, 47);
+}
+hr{
+  padding:0px;
+  margin: 0px;
+
+}
+.logo{
+  text-align:right;
+  height:110px;
+}
+.logo img{
+  padding-left:35px;
+  float:left;
+}
+#header{
+  margin-left:0px;
+  padding-right:100px;
+  position: relative;
+  background:#ffffff;
+  float:right;
+}
+#header li a{
+  color:#262626;
+  font-size:20px;
+  text-decoration:none;
+  font-weight:bold;
+  display: block;
+  PADDING:15px;
+
+}
+#header a:hover{
+  background-color: #104685;
+
+}
+#header li{
+  display:inline-block;
+  transform-style: preserve-3d;
+  margin:0px 20px 0px 20px;
+}
+.navbarul{
+  margin-left:60px;
+  padding-right:0px;
+  position: relative;
+  background:#ffffff;
+}
+.navbarul li{
+  display:inline-block;
+  transform-style: preserve-3d;
+  margin-right:10px;
+  margin-left:10px;
+
+
+
+}
+.navbarul li a{
+  color:#262626;
+  font-size:16px;
+  text-decoration:none;
+  font-weight:bold;
+  display: block;
+
+}
+.navbarul li a{
+  display:block;
+  PADDING:15px 20px;
+}
+.navbarul a:hover{
+  background-color: #ededed;
+
+}
+#nav{
+  height:50px;
+}
+input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: blue;
+	font-size: 16px;
+	background:white ;
+	cursor: pointer;
+	border-radius: 10px;
+	border-style:solid;
+  padding: 10px 40px 10px 40px;
+}
+input[type="submit"]:hover
+{
+	background: #ededed;
+	color: rgb(215, 23, 47);
+}
+
+.container1{
+  height: 500px;
+  width:550px;
+  float:left;
+  margin:0px 0px 0px 116.5px;
+  background-color: white;
+}
+
+.container1: hover{
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.imagecontainer{
+  width:1100px;
+  margin:0px 116px 0px 116px;
+  padding:0px;
+}
+.imagecontainer:hover{
+ opacity:0.7;
+}
+
+.container2{
+  height: 500px;
+  width: 550px;
+  float:right;
+  margin:0px 110px 0px 0px;
+  background-color: white;
+  border-left-style:solid;
+}
+
+.vidcontainer{
+  width:1100px;
+  margin:0px 116px 0px 116px;
+  border-style:double;
+}
+
+.container3{
+	background-image:url("columbia.jpg");
+	color:black;
+  height: 250px;
+  width:550px;
+  float:left;
+  margin:0px 0px 0px 116px;
+  background-color: #2c2c2c;
+  
+}
+
+.container4{
+	background-image:url("imra.jpg");
+  height: 250px;
+  width:550px;
+  float:left;
+  margin:0px 116px 0px 0px;
+  background-color:  #fbfbfb;
+
+
+}
+
+
+
+.a{
+	float:left;
+	color:black;
+	margin-left:116px;
+}
+.b{
+	margin-right:380px;
+	float:right;
+	color:black;
+	margin-left:116px;
+}
+.container3:hover{
+     opacity:0.5;
+}
+.container4:hover{
+     opacity:0.5;
+}
+footer{
+	margin-top:30px;
+	margin-left:116px;
+}
